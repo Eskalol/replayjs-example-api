@@ -9,5 +9,5 @@ export default {
   },
 
   // TODO: fix seeds
-  seedDB: true,
+  seedDB: false,
 };
