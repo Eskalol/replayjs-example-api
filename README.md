@@ -1,5 +1,5 @@
 # replayjs_example_api
-[![dependencies Status][daviddm-image]][daviddm-url] [![devDependencies Status][daviddm-dev-image]][daviddm-dev-url] [![codecov][codecov-image]][codecov-url] [![Build Status][travis-image]][travis-url] 
+[![dependencies Status][daviddm-image]][daviddm-url] [![devDependencies Status][daviddm-dev-image]][daviddm-dev-url] [![codecov][codecov-image]][codecov-url] [![Build Status][travis-image]][travis-url]
 
 
 ## Development setup
@@ -26,6 +26,9 @@ $ gulp
 ```bash
 $ docker-compose up
 ```
+
+## Production example on heroku
+[Replayjs rest api doc](https://nameless-river-12581.herokuapp.com/api/doc)
 
 
 [daviddm-image]: http://img.shields.io/david/Eskalol/replayjs-example-api.svg?style=flat-square
