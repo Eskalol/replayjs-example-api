@@ -167,6 +167,7 @@ gulp.task('build', cb => {
       'clean:dist',
       'transpile',
       'copy:yaml',
+      'copy:html',
       cb);
 });
 
@@ -182,6 +183,11 @@ gulp.task('transpile', () => {
       ]
     }))
     .pipe(gulp.dest(`${paths.dist}`));
+});
+
+gulp.task('copy:html', () => {
+  return gulp.src('src/doc/api.html')
+    .pipe(gulp.dest(`${paths.dist}/doc`));
 });
 
 gulp.task('copy:yaml', () => {
